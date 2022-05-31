@@ -1199,6 +1199,47 @@ ol li {
   color: #212121;
   font-weight: 600;
 }
+/* map  */
+.sigma_contact-map {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+.sigma_contact-map iframe {
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+.sigma_contact-wrapper .sigma_contact-map{
+  height: 350px;
+}
+.sigma_contact-map.has-full-height {
+  height: 100%;
+}
+.sigma_contact-map.is-absolute:before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 250px;
+  background-color: var(--thm-section-bg);
+  z-index: -1;
+}
+.sigma_contact-map.is-absolute iframe{
+  background-color: #fff;
+  padding: 10px;
+  height: 400px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
+}
+.sigma_form.style-5 .sigma_contact-map{
+  height: 100%;
+}
+
+
+
+
 
 .sigma_list li+li {
     margin-top: 20px;
